@@ -1,0 +1,109 @@
+{
+    "about": [
+        "I graduated at Tshwane University of Technology in 2014 as a Software Developer and I've gained knowledge in data science, database, programming, data analysis, project management and many more.",
+        "I am currently employed as a coding lecturer at Life Choices and also run my own business, JT Devs. As a part-time YouTuber, I teach people different programming languages."
+    ],
+    "education": [
+        {
+            "id": 1,
+            "year": 2019,
+            "description": "I got my certificates in Office Management",
+            "place": "Helderberg College",
+            "type": "certificate",
+            "certificate": "https://drive.google.com/file/d/1-f1yRukcXLo0e8ip3Cb7Z3D29Er9ENn_/view"
+        },
+        {
+            "id": 2,
+            "year": 2022,
+            "description": "Incomplete Bachelor in Business Management",
+            "place": "Helderberg College",
+            "type": "Degree",
+            "certificate": "https://drive.google.com/file/d/1qd2xS-HvI4c_C4vf1-Z1R_bPxzF7SZ-t/view"
+        },
+        {
+            "id": 3,
+            "year": 2024,
+            "description": "Currently Aspiring Web Developer",
+            "place": "Life Choices",
+            "type": "certificate",
+            "certificate": "https://drive.google.com/file/d/1-_DBHhxHKGS3Gqsy5eJ-_16WJN50OfXX/view"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Bakery Assistant",
+            "experience": "I have 6 months of experience in the bakery working at Checkers"
+        },
+        {
+            "title": "Floor Sales Assistant",
+            "experience": "I've have worked as a sales assistant at Pickn'Pay Clothing for 6 months"
+        },
+        {
+            "title": "Microsoft Office",
+            "experience": "For a year I have been working from home helping students apply for school, print cv's, do presentation, etc, mainly using microsoft word, microsoft office, Excel and Paint"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Rachel",
+            "surname": "Mukanya",
+            "quotes": "Joel never ceases to amaze me with the vast amount of knowledge he has acquired over the years in software development. He is truly a great mentor.",
+            "profile": "https://i.postimg.cc/SRBL8qnC/rachel.jpg"
+        },
+        {
+            "name": "Ruth",
+            "surname": "Mukanya",
+            "quotes": "Joel is a nice person. Someone who is really reliable and honest always does his work and makes sure everything is well organized.",
+            "profile": "https://i.postimg.cc/DyGHNwPV/ruth.jpg"
+        },
+        {
+            "name": "Lazola",
+            "surname": "Makubalo",
+            "quotes": "Joel Tshimanga Mukunya is an incredibly humble intellectual. He is an outstanding lecturer who consistently finds effective ways to ensure that everyone comprehends the content. Additionally, he has a delightful personality, making him a joy to be around.",
+            "profile": "https://i.postimg.cc/3rZ0H0D8/profile-Image.png"
+        },
+        {
+            "name": "Dr. Godwin P",
+            "surname": "Dzvapatsva",
+            "quotes": "I am thrilled to share my heartfelt testimonial for Joel, a remarkable former co-worker and lecturer. Joel worked under my guidance for one year during my time as Head of Curriculum and Learning at Lifechoices Academy. His expertise in C++, HTML, CSS, Vue.js, JavaScript, and Node.js is truly impressive, and he effortlessly demonstrates proficiency in these technologies. However, what truly sets Joel apart is his exceptional teaching skills. He has a natural talent for breaking down complex concepts into easily digestible bits, making the learning process enjoyable and engaging. Joel's patience and willingness to go the extra mile to ensure every student grasps the material are truly commendable. I consider myself fortunate to have learned from him, and I wholeheartedly recommend him as an outstanding educator.",
+            "profile": "https://i.postimg.cc/3rZ0H0D8/profile-Image.png"
+        }
+    ],
+    "projects":[
+        {
+            "name": "To-do List",
+            "description": "I built this application using HTML 5, CSS, and Javascript.",
+            "image": "https://i.postimg.cc/tTF7RMr1/todoList.png",
+            "gitHub": "https://github.com/codjoelmayer/todoApp_js.git",
+            "netlify": "https://joel-todo-list.netlify.app/"
+        },
+        {
+            "name": "Calculator",
+            "description": "This is my calculator app, and I built it using HTML 5, CSS 3, Javascript, and Bootstrap's icon. In order to validate my input element, I make use of regular expressions.",
+            "image": "https://i.postimg.cc/vH8q91JB/reg-Exp-Calculator.png",
+            "gitHub": "https://github.com/codjoelmayer/regExpCalculator.git",
+            "netlify": "https://regexpcalculator.netlify.app/"
+        },
+        {
+            "name": "Message believers Circle",
+            "description": "MBC is an application I built for my client for selling products online. I make use of Vue3 JS, MySQL, APIs, and JSON Web Tokens.",
+            "image": "https://i.postimg.cc/k4tqF1Ln/message-Believer-Circle.png",
+            "gitHub": "https://github.com/codjoelmayer/messageBelieversCircle.git",
+            "netlify": "https://messagebelieverscircle-3491d.web.app/"
+        },
+        {
+            "name": "JT Laptop",
+            "description": "An eCommerce site built using HTML 5, CSS, Javascript, and Bootstrap 5",
+            "image": "https://i.postimg.cc/g2YVCx3R/JTLaptop.png",
+            "gitHub": "https://github.com/codjoelmayer/JTLaptops.git",
+            "netlify": "https://jtlaptops.netlify.app/"
+        },
+        {
+            "name": "JS Portfolio",
+            "description": "I built my portfolio using HTML 5, CSS, Bootstrap, and Javascript. I am using JS to display my dynamic content.",
+            "image": "https://i.postimg.cc/W4m3tkbb/js-Portfolio.png",
+            "gitHub": "https://github.com/codjoelmayer/PortfolioWithBSAndJS.git",
+            "netlify": "https://joeljsportfolio.netlify.app/"
+        }
+    ]
+}
