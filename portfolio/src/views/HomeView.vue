@@ -24,7 +24,7 @@ export default {
     }
   },
   mounted() {
-    this.$store.state.about;
+    this.$store.state.dispatch('');
   }
 }
 </script>
