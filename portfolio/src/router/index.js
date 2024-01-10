@@ -20,17 +20,17 @@ const routes = [
   {
     path: '/project',
     name: 'project',
-    component: () => import('@/views/ResumeView.vue')
+    component: () => import('@/views/ProjectView.vue')
   },
   {
-    path: '/testimonial',
-    name: 'testimonial',
-    component: () => import('@/views/ResumeView.vue')
+    path: '/testimonials',
+    name: 'testimonials',
+    component: () => import('@/views/TestimonializeView.vue')
   },
   {
     path: '/reachme',
     name: 'reachme',
-    component: () => import('@/views/ResumeView.vue')
+    component: () => import('@/views/ReachMe.vue')
   }
 ]
 

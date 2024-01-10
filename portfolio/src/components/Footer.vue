@@ -1,8 +1,8 @@
 <template>
-    <div class="container">
+    <div class="container-lg bg-dark">
         <div class="row">
             <p class="lead">
-                Joeal's portfolio &copy;
+                Sipho Gcusa &copy;
                 <span>{{ currYear }}</span>
             </p>
         </div>
@@ -23,5 +23,7 @@
 
 
 <style scoped>
-
+.container-lg {
+    color: #e2a368;
+}
 </style>
