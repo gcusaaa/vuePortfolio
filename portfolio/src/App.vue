@@ -6,25 +6,24 @@
     <router-link to="/project">Project</router-link> |
     <router-link to="/testimonial">Testimonial</router-link> |
     <router-link to="/reachme">Reach me</router-link>
-  </nav> -->
+  </nav>  -->
   <main class="container-fluid">
     <NavBar />
     <router-view/>
+    <Footer/>
   </main>
-
-  <FooterView />
 
 
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
-import FooterView from './components/Footer.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
     NavBar,
-    FooterView,
+    Footer,
   }
 }
 </script>
