@@ -1,5 +1,5 @@
 import { createStore } from 'vuex'
-const dataUrl = 'https://gcusaaa.github.io/todayPortfolioData/'
+const dataUrl = 'https://gcusaaa.github.io/todayPortfolioData/data'
 export default createStore({
   state: {
     about: null,
@@ -28,10 +28,14 @@ export default createStore({
     }
   },
   actions: {
-    async fetchAbout(context){
+    async fetchEducation(context){
       let res = await fetch(dataUrl)
-      let {about} = await res.json()
-      context.commit('setAbout', about)
+      let {education} = await res.json()
+      context.commit('setEducation', education)
+    },
+    async fetchSkills(context) {
+      let {skills} = await (await fetch(dataUrl)).json()
+      context.commit('setSkills', skills )
     }
   },
   modules: {

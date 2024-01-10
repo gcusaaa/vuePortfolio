@@ -7,18 +7,21 @@
 </template>
 
 <script>
-    export default {
-      computed: {
-        about() {
-            return this.$store.state.about;
-        }
-    },
-    mounted() {
-    this.$store.state.about;
-    }
-  }
 
 </script>
+
+//     export default {
+//       computed: {
+//         education() {
+//             return this.$store.state.education;
+//         }
+//     },
+//     mounted() {
+//     this.$store.state.dispatch('fetchEducation');
+//     }
+//   }
+
+<!-- </script> -->
 
 <style scoped>
 
