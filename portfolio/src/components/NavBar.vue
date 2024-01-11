@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-lg bg-dark">
-  <div class="container-fluid">
+  <div class="container">
     <router-link to="/">
         <img class="img-fluid" src="https://i.postimg.cc/sD63jNkC/Screenshot-2023-10-30-115548.png" alt="" width="60">
     </router-link>
@@ -27,7 +27,7 @@
             </router-link>
         </li>
         <li class="nav-item">
-            <router-link to="/testimonial" class="nav-link">
+            <router-link to="/testimonials" class="nav-link">
                 Testimonial
             </router-link>
         </li>

@@ -6,10 +6,14 @@
       </div>
     </div>
   </div>
+  
 </template>
 
 <style scoped>
 .para {
   font-size: x-large;
+}
+.about {
+  font-family: 'Times New Roman', Times, serif;
 }
 </style>
