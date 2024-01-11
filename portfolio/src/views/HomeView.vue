@@ -17,14 +17,20 @@
 
 <script>
 
-export default {
-  computed: {
-    about() {
-      return this.$store.state.about;
-    }
-  },
-  mounted() {
-    this.$store.state.dispatch('');
-  }
-}
+// export default {
+//   computed: {
+//     about() {
+//       return this.$store.state.about;
+//     }
+//   },
+//   mounted() {
+//     this.$store.dispatch('');
+//   }
+// }
 </script>
+
+<style scoped>
+.container {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+</style>
