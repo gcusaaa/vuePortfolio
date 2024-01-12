@@ -1,0 +1,126 @@
+{
+    "education": [
+        {
+            "id": 1,
+            "year": 2018,
+            "description": "I matriculated",
+            "place": "Strand Secondary School",
+            "type": "National Certificate",
+            "certificate": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSeEebGirKqLyWtVgU5REZ6zxJ35VzJxgPl7y-Y5SQzc76g6USqx-Gt-kave9dpVbNMA4sOZGBrk1JUCmNfZyr0GZGp=w1227-h912"
+
+        },
+        {
+            "id": 2,
+            "year": 2019,
+            "description": "I optained a Higher Certificate in Office Management",
+            "place": "Helderberg College of Higher Education",
+            "type": "Certificate",
+            "certificate": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQTdRrp7e9561ckR1QpmalO7OhbvmAnucHXrQK70Cv7De3OBTjWVH3nspARg3aIUriERzJxYQq9k8hg3C_Y9af69Iq78g=w1227-h912"
+        },
+        {
+            "id": 3,
+            "year": 2023,
+            "description": "Currently at Life Choices studying web development",
+            "place": "Life Choices",
+            "type": "Certificate",
+            "certificate": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQf496DcQtCmtvPmXe5DlhOyI2GhoCn1yoGLK5Po3_pjYkneojhXvvXvhHloL_LZzuNYCGDlt3XQhm3_-sUhbbfQPj0kw=w1227-h912"
+        }
+    ],
+    "skills": [
+        {
+            "photo": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQw3Kjw5wTtq4j6giZYwPfww-thAIbR3kREavaXmpkgiJyL6nugp3gvHujMpA13N1ZSso_hRUV4RoZ4aGU7952EwutowQ=w1227-h912",
+            "title": "Html",
+            "experience": "I use the html 5 to create structured documents."
+        },
+        {
+            "photo": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQ28uXU2vExSimdG7dNmdqg10rGHzq3NnjS7QRwjEvDuZBT6tNXAvoXymtnNMfvtZxdjQEnmDrrOHdAAWlvgGmEFBhgDw=w1227-h912",
+            "title": "CSS",
+            "experience": "I make use of the css 3 to style and display my html elements"
+        },
+        {
+            "photo": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQOhnMGT1CKY2IrDeUuz0-PViA0cvPWmYheQXgXTKkZehu8L-0uhBuIgZd9JTc6fUAVMjFVlt1epIBlM9n5rumJJSLO2A=w1227-h912",
+            "title": "Bootstrap",
+            "experience": "By making use of the bootstrap frameworks I simplify my work, helping with the responsiveness, and mobile websites"
+        },
+        {
+            "photo": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRPnvVj0DRSsiEJbBXVIcNfDPXMVwjeewDtU2cu2hsT0D8XT9YVMvGb5v2SoZIb1rYFZDEZJuzk2EmIgtUyRK4kK8z99g=w1227-h912",
+            "title": "Javascript",
+            "experience": "I use javascript for my page functionality"
+        }
+    ],
+    "testimonials": [
+        {
+            "name": "Tashreeq",
+            "surname": "Lee",
+            "quotes": "Sipho Gcusa is always willing to lend a helping hand and his enthusiasm and dedication to his work is unmatched. He is organized, thorough, and always goes the extra mile to make sure a job is well done and always carries a smile with him wherever he goes.",
+            "profile": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRmvajaao_liFwOb1HfRbmltjxf8GPA_a98ZjWu721UWvE10_NdTnPUXU0JVZrIqt6Q9PjLLpA_tXY4pxCeplvp7pvLAg=w1227-h912"
+        },
+        {
+            "name": "Ntokozo",
+            "surname": "Sithebe",
+            "quotes": "His dedication to his craft, combined with his affable nature, makes him a valuable asset to any team. I have no doubt that Sipho will continue to make significant contributions to the field of coding and design. It is a privilege to work alongside such a dedicated and talented individual.",
+            "profile": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQQMI4NIAocPgWQBnDrBF0C4qvAfDjLMJzRrjk_sA6-GZBGYpakIXo7hI6YQgAsxbutA9wrKRodiEB3Jw7mMKmh5ChU=w1227-h912"
+        },
+        {
+            "name": "Simamnkele",
+            "surname": "Tancu",
+            "quotes": "I highly recommend Sipho Gcusa as a software developer. Her technical expertise, commitment to quality, and strong communication skills make her an asset to any team. I look forward to the opportunity to work with them again in the future.",
+            "profile": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSz7R1vOKFFrik_MgMOfnOSwSVbBm7eMmytu1RFwf3qdqAPZkAMI0wS9wE6Zop-lobvEaxHANVrdj8npGLP-Eo6wTGY=w1227-h912"
+        },
+        {
+            "name": "Sivuyisiwe",
+            "surname": "Peter",
+            "quotes": "Asisipho is a very passionate person especially when it come to developing website ,he is good with both front and backend . He is a team player and your company would be lucky to have him as part of your team.",
+            "profile": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYTPQo4fjwUidRZNW-Iu7kZr7jwOO022kXhAMNm1uT2qAtJ0fo-oxNeOT7C0LRC6O07LsT03Ym_jgRCWNiyGvjYETZcz5Q=w1227-h912"
+        },
+        {
+            "name": "Pinda",
+            "surname": "Fortuin",
+            "quotes": "Sipho is a very passionate person especially when it comes to web development, His adaptability and quick learning skills really inspire me .However, even though he's quite competent, he never misses an opportunity to better himself. Truly one of the most intellectual, friendly, supportive and humble colleagues you will ever meet. What a privilege it has been to work along side him.",
+            "profile": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSHhnvcSjvckICMiLDdIl59V-XK8OUV_aJKnCsrzJJsSBsSGrC4B9eBdOc60A-6znv3ih2T6CSK7y8JJUCtdaElc0mspA=w1227-h912"
+        },
+        {
+            "name": "Ghamzah",
+            "surname": "Samuels",
+            "quotes": "Sipho  is an inspiration to me and his peers to always put your best foot forward towards reaching a milestone. He is known for his determination and resilience during  strenuous working conditions. As a software developer his input is always needed for a specific task. To work with people is his passion and has exceptional leadership skills.",
+            "profile": "https://drive.google.com/file/d/1p6Z8CDMGFPxrE6y3j23xflrirde18OTf/view?usp=drive_link"
+        }
+    ],
+    "projects":[
+        {
+            "name": "Calculator",
+            "description": "I built this application using html, css and javascript.",
+            "image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSR2mDyEKzymy6zFfTKwzE766058vy2oHbZXpp3aJvod7Ev50VhDus3ZRvFTusx0NWsybiosN0uJDUuWznH7lWVudh5=w1227-h912",
+            "gitHub": "https://github.com/gcusaaa/calculator",
+            "netlify": "https://stunning-sfogliatella-de1335.netlify.app/"
+        },
+        {
+            "name": "Temperature Calculator",
+            "description": "I built this temperature calculator to convert ",
+            "image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYRgaXDbYbAch0eYRNeOXfsgYufspFacsW3B2_8UxmGjFJ8opOqfjph-ccRizKsHnv_WSVa_NPsxvMAG-MtbN53rinRKlQ=w1227-h912",
+            "gitHub": "https://github.com/gcusaaa/temperatureCalc",
+            "netlify": "https://silly-meerkat-c44c94.netlify.app/"
+        },
+        {
+            "name": "Bootstrap Portfolio",
+            "description": "MBC is an application I built for my client for selling products online. I make use of Vue3 JS, MySQL, APIs, and JSON Web Tokens.",
+            "image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYSTfb3POyI2qVB_aPMWcCtriJP-5f0yqDRwwfW5az29CsBOgR5FUIJmGYymJ9m50A2VdzqvggrUJtMDDAhH9bD7UPFrtw=w1227-h912",
+            "gitHub": "https://github.com/gcusaaa/endProjectBootstrap",
+            "netlify": "https://stately-biscotti-5d4b24.netlify.app/"
+        },
+        {
+            "name": "BMI Calculator",
+            "description": "An eCommerce site built using HTML 5, CSS, Javascript, and Bootstrap 5",
+            "image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYR5Tp64fEClutEeP0J_V3iGuFIPUTxeklwEnxxr14dCcwOTm91rzktL0o9yBKM6GUQz0NivUgrNdsqQhTKNTR2ufIfp=w1227-h912",
+            "gitHub": "https://github.com/gcusaaa/BMICalculator",
+            "netlify": "https://jade-panda-071dc5.netlify.app/"
+        },
+        {
+            "name": "Daily List",
+            "description": "I built my portfolio using HTML 5, CSS, Bootstrap, and Javascript. I am using JS to display my dynamic content.",
+            "image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYR_daH_EMyZbbcxIqSPuP765rzr3hNFNxZjypZR0wF7wlHbe3RkS-oib8MhjkYxNpufOG69B2nvpQF4KC43EUSZLs7-DQ=w1227-h912",
+            "gitHub": "https://github.com/gcusaaa/createApplication",
+            "netlify": "https://gleeful-caramel-b59806.netlify.app/"
+        }
+    ]
+}

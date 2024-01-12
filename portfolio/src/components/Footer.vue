@@ -1,5 +1,5 @@
 <template>
-    <div class="container-lg bg-dark">
+    <div class="footer bg-dark">
         <div class="row">
             <p class="lead">
                 Sipho Gcusa &copy;
@@ -23,7 +23,7 @@
 
 
 <style scoped>
-.container-lg {
+.footer {
     color: #e2a368;
 }
 </style>

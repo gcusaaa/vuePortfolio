@@ -1,8 +1,8 @@
 <template>
     <h2 class="resume">myRESUME</h2>
-    <div class="row justify-content-center vh-100">
+    <div class="row justify-content-center">
         <div class="col-4">
-        <h2>Edcucation</h2>
+        <h2>Education</h2>
           <div class="education " v-if="education">
             <div class="displayEduca" v-for="educa in education" :key="educa.id">
               <div class="card m-2 p-2" style="width: 22rem;">
@@ -24,11 +24,12 @@
         </div>
         <div class="col-4">
           <h2>Skills</h2>
-          <div class="skills" v-if="skills">
-            <div class="row" v-for="kills in skills" :key="kills.id">
+          <div class="skills">
+            <div class="row w-75" v-if="skills" >
+              <div class="col" width="150" v-for="kills in skills" :key="kills.id">
                 <p>
                   <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-                    <img :src="kills.photo" :alt="Icon-images" width="100">
+                    <img :src="kills.photo" :alt="Icon-images" width="70">
                   </button>
                 </p>
                 <div style="min-height: 120px;">
@@ -39,6 +40,7 @@
                     </div>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
