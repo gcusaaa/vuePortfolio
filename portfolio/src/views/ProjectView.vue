@@ -1,8 +1,9 @@
 <template>
     <div class="projects">
-      <div class="row">
-        <div class="proCard" v-if="projects">
-          <div class="card p-2 m-2 bg-dark justify-content-center" style="width: 18rem;" v-for="pro in projects" :key="pro.name">
+      <div class="row justify-content-center d-flex">
+        <div class="col-10 proCard" v-if="projects">
+            <h2 class="row justify-content-center m-4">myPROJECTS</h2>
+          <div class="card p-2 m-2 bg-dark" style="width: 18rem;" v-for="pro in projects" :key="pro.name">
               <img class="photo" :src="pro.image" :alt="Project-image" width="100">
             <div class="card-body">
               <h3 class="card-title">{{ pro.name }}</h3>
