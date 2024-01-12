@@ -1,15 +1,21 @@
 <template>
     <div class="projects">
-      <div class="row justify-content-center d-flex">
-        <div class="col-10 proCard" v-if="projects">
+      <div class="row justify-content-center">
+        <div class="col-12">
             <h2 class="row justify-content-center m-4">myPROJECTS</h2>
-          <div class="card p-2 m-2 bg-dark" style="width: 18rem;" v-for="pro in projects" :key="pro.name">
-              <img class="photo" :src="pro.image" :alt="Project-image" width="100">
-            <div class="card-body">
-              <h3 class="card-title">{{ pro.name }}</h3>
-              <p class="card-text">{{ pro.description }}</p>
-              <a :href="pro.gitHub" class="btn">gitHub</a>
-              <a :href="pro.netlify" class="btn">netlify</a>
+        </div>
+        <div class="col-10 proCard" v-if="projects">
+          <div class="row">
+            <div class="col-md-4 mb-4" v-for="pro in projects" :key="pro.name">
+              <div class="card p-2 m-2 bg-dark" style="width: 21rem; height: 100%;">
+              <img class="photo mx-auto d-block" :src="pro.image" :alt="Project-image" width="120">
+                <div class="card-body">
+                <h3 class="card-title">{{ pro.name }}</h3>
+                <p class="card-text">{{ pro.description }}</p>
+                <a :href="pro.gitHub" class="btn">gitHub</a>
+                <a :href="pro.netlify" class="btn">netlify</a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
