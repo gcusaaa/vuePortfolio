@@ -14,10 +14,32 @@
 
 <script>
 
+export default{
+  mounted() {
+    setTimeout(() => {
+      this.$el.classList.add('fade-in');
+    }, 500);
+  }
+}
+
 </script>
 
 <style scoped>
 .container {
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>

@@ -1,4 +1,5 @@
 <template>
+  <form action="https://formspree.io/f/mleqdjwy" method="post">
     <div class="container-fluid">
         <div class="row justify-content-center align-content-center my-5">
           <div class="col-md-10">
@@ -9,18 +10,18 @@
                     <div class="inputNames">
                       <h5 class="name mb-2">Name</h5>
                       <div class="form-floating">
-                        <input type="text" id="email" class="form-control" placeholder="e.g Sipho Gcusa" required>
-                        <label class="text-danger" for="name">e.g Sipho Gcusa</label>
+                        <input type="text" id="bname" name="bname" class="form-control" placeholder="e.g Sipho Gcusa" required>
+                        <label class="text-danger" for="bname">e.g Sipho Gcusa</label>
                       </div>
                       <h5 class="Email mt-4">E-mail</h5>
                       <div class="form-floating">
-                        <input type="email" id="email" class="form-control" placeholder="e.g gcusaaa@gmail.com" required>
-                        <label class="text-body-secondary" for="email">e.g gcusaaa@gmail.com</label>
+                        <input type="email" id="lname" name="lname" class="form-control" placeholder="e.g gcusaaa@gmail.com" required>
+                        <label class="text-body-secondary" for="lname">e.g gcusaaa@gmail.com</label>
                       </div>
                       <h5 class="query mt-4">Query</h5>
                       <div class="form-floating">
-                        <input type="text" id="query" class="form-control py-5" placeholder="Ask your question" required>
-                        <label class="text-danger" for="query">Ask your question</label>
+                        <input type="text" id="sname" name="sname" class="form-control py-5" placeholder="Ask your question" required>
+                        <label class="text-danger" for="sname">Ask your question</label>
                         <button class="mt-2 border-0 bg-danger text-dark p-2">submit</button>
                       </div>
                     </div>
@@ -48,6 +49,7 @@
           </div>
         </div>
     </div>
+  </form>
 </template>
 
 <script>
